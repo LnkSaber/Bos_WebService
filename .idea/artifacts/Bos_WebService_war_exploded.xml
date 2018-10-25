@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Bos_WebService:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Bos_WebService_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Bos_WebService/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Bos_WebService" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="geronimo-javamail_1.4_spec-1.7.1" />
+          <element id="library" level="project" name="spring-aop-3.2.0.RELEASE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

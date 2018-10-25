@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/cxf.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-all.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-extension-addr.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-extension-corba.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-extension-http-binding.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-extension-http-jetty.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-extension-http.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-extension-javascript-client.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-extension-jaxws.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-extension-jms.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-extension-local.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-extension-management.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-extension-object-binding.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/osgi/cxf-extension-osgi.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-extension-policy.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-extension-rm.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-extension-soap.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-extension-ws-security.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-extension-wstx-msv-validation.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-extension-xml.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf-servlet.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/cxf.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/cxf/java2wsbeans.xml</file>
+          <file>jar://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar!/META-INF/spring/osgiservlet.xml</file>
+          <file>file://$MODULE_DIR$/web/WEB-INF/lib/cxf-2.4.2.jar</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="geronimo-javamail_1.4_spec-1.7.1" level="project" />
+    <orderEntry type="library" name="spring-aop-3.2.0.RELEASE" level="project" />
+  </component>
+</module>
